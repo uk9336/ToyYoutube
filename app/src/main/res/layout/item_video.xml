@@ -23,11 +23,12 @@
         android:ellipsize="end"
         android:maxLines="1"
         android:singleLine="true"
+        android:textColor="@color/purple_200"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/logoImageView"
         app:layout_constraintTop_toTopOf="@+id/logoImageView"
-        tools:text="유튜브 제목" />
+        tools:text="제목" />
 
     <TextView
         android:id="@+id/subTitleTextView"
@@ -37,11 +38,12 @@
         android:ellipsize="end"
         android:maxLines="1"
         android:singleLine="true"
+        android:textColor="@color/purple_200"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="@+id/titleTextView"
         app:layout_constraintStart_toStartOf="@+id/titleTextView"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView"
-        tools:text="유튜브 서브 타이틀" />
+        tools:text="서브 타이틀" />
 
     <ImageView
         android:id="@+id/logoImageView"
